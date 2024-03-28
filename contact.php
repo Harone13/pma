@@ -1,4 +1,6 @@
-
+<?php
+  include 'header.php';
+?>
 
     <!-- Contact Start -->
     <div class="container-fluid pt-5">
@@ -72,3 +74,6 @@
     </div>
     <!-- Contact End -->
 
+    <?php
+    include 'footer.php';
+  ?>

@@ -1,4 +1,6 @@
-
+<?php
+  include 'header.php';
+?>
 
     <!-- Services Start -->
     <div class="container-fluid py-5">
@@ -205,3 +207,6 @@
         </div>
     </div>
     <!-- Testimonial End -->
+<?php
+    include 'footer.php';
+  ?>

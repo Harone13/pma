@@ -1,4 +1,6 @@
-
+<?php
+  include 'header.php';
+?>
 
     <!-- About Start -->
     <div class="container-fluid py-5">
@@ -142,3 +144,7 @@
         </div>
     </div>
     <!-- Team End -->
+
+    <?php
+  include 'footer.php';
+?>

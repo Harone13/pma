@@ -1,4 +1,6 @@
-
+<?php
+  include 'header.php';
+?>
 
     <!-- Appointment Start -->
     <div class="container-fluid py-5">
@@ -67,3 +69,6 @@
     <!-- Appointment End -->
 
 
+    <?php
+    include 'footer.php';
+  ?>
