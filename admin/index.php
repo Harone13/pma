@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 ob_start();
 
 
@@ -27,7 +27,7 @@ ob_start();
 
     if ($stmt->rowCount() > 0) {
         ?>
-        <p style=color:#78e299>
+        <div class="alert alert-success">
       <?php
   
           // echo "Welcome " . $row['id'];
@@ -35,7 +35,7 @@ ob_start();
           echo "You are login successfuly";
       
       ?>
-        </p>
+        </div>
       <?php
             $_SESSION['username'] = $name; // Register session name
             $_SESSION['user_id'] = $row['id']; // Register session ID     
@@ -43,8 +43,8 @@ ob_start();
             exit();
 
     } else {
-        echo  '<p style=color:#ea0538>
-        Name Or password Not valid </p>';
+        echo  '<div class="alert alert-danger">
+        Name Or password Not valid </div>';
     }
 
 }

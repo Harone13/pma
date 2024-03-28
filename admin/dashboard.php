@@ -1,5 +1,4 @@
 <?php
-session_start();
 include 'header.php';
 echo "Here is Admin <br>";
 
